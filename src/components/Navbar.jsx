@@ -71,7 +71,7 @@ export default function Navbar() {
           <a href="#contact" onClick={() => setOpen(false)}>Contact</a>
 
           <a
-            href="/MungleRoshanKumarJavaFullStack.pdf"
+            href={`${import.meta.env.BASE_URL}MungleRoshanKumarJavaFullStack.pdf`}
             target="_blank"
             className="block text-blue-400"
           >
