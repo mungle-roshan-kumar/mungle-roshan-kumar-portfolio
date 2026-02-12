@@ -4,21 +4,21 @@ const projects = [
   {
     projectName: "Internal HR & Finance Management System",
     applicationName: "Company Confidential",
-    technologies: ["Java", "Spring Boot", "MySQL"],
+    technologies: ["Java", "Spring Boot", "MySQL", "DynamoDB"],
     description:
       "Exclusive internal application used by HR and Accounting teams for Payroll, ESI, PF, EPF, and statutory compliance workflows with role-based secure access.",
   },
   {
     projectName: "Flight Schedulers Application",
     applicationName: "Post-Booking Management System",
-    technologies: ["Java", "Spring Boot", "MySQL"],
+    technologies: ["Java", "Spring Boot", "MySQL", "DynamoDB"],
     description:
       "Developed a post-booking platform supporting airline scheduling operations including e-ticket generation, schedule changes, and booking updates.",
   },
   {
     projectName: "Indian Eagle – Mobile Web Application",
     applicationName: "Mobile Optimized Booking Platform",
-    technologies: ["Java", "Groovy", "Spring Boot", "Microservices", "MySQL"],
+    technologies: ["Java", "Groovy", "Spring Boot", "Microservices", "MySQL", "DynamoDB"],
     description:
       "Developed a mobile-optimized web platform accessible via browsers, improving responsiveness and performance for mobile users.",
     liveLink: "https://www.indianeagle.com",
@@ -27,7 +27,7 @@ const projects = [
   {
     projectName: "Indian Eagle – Desktop Web Application",
     applicationName: "Public B2C Flight Booking System",
-    technologies: ["Java", "Spring Boot", "Thymeleaf", "JavaScript", "MySQL"],
+    technologies: ["Java", "Spring Boot", "Thymeleaf", "JavaScript", "MySQL", "DynamoDB"],
     description:
       "Built a public-facing monolithic flight booking platform integrating multiple backend microservices and rendering dynamic content using Thymeleaf templates.",
     liveLink: "https://www.indianeagle.com",
@@ -35,7 +35,7 @@ const projects = [
   {
     projectName: "I-GARUDA – Internal CRM Application",
     applicationName: "24/7 Customer Support CRM",
-    technologies: ["Java", "Spring Framework", "JSP", "MySQL"],
+    technologies: ["Java", "Spring Framework", "JSP", "MySQL", "DynamoDB"],
     description:
       "Designed and developed an internal CRM supporting continuous customer service operations, enabling agents to manage bookings, requests, and issue resolution efficiently.",
   },
@@ -46,6 +46,7 @@ const projects = [
       "Java",
       "Spring Boot",
       "MySQL",
+      "DynamoDB",
       "SonarQube",
       "Jacoco",
       "PIT",
@@ -60,6 +61,7 @@ const projects = [
       "Java",
       "Spring Boot",
       "MySQL",
+      "DynamoDB",
       "SonarQube",
       "Jacoco",
       "PIT",
@@ -74,6 +76,7 @@ const projects = [
       "Java",
       "Spring Boot",
       "MySQL",
+      "DynamoDB",
       "SonarQube",
       "Jacoco",
       "PIT",

@@ -7,50 +7,50 @@ const skillsData = [
   },
   {
     title: "Frameworks & Architecture",
-    skills: [
-      "Spring Boot",
-      "Spring Framework",
-      "Microservices Architecture",
-    ],
+    skills: ["Spring Boot", "Spring Framework", "Microservices Architecture"],
   },
   {
     title: "Web Services",
-    skills: ["RESTful APIs", "SOAP Web Services"],
+    skills: ["RESTful APIs", "SOAP Web Services (WSDL)", "XSD Schema Handling & Overrides"],
   },
   {
     title: "Databases",
-    skills: ["MySQL"],
+    skills: ["MySQL", "DynamoDB"],
   },
   {
     title: "Testing & Code Quality",
+    skills: ["JUnit", "SonarQube", "Jacoco", "PIT"],
+  },
+  {
+    title: "API Tools & Documentation",
+    skills: ["Postman", "Swagger"],
+  },
+  {
+    title: "Cloud & AWS Services",
     skills: [
-      "JUnit",
-      "SonarQube",
-      "Jacoco",
-      "PIT",
-      "Postman",
-      "Swagger",
+      "AWS S3 (Buckets)",
+      "CloudWatch Logs Insights",
+      "DynamoDB",
+      "Cognito (Exploring)",
+      "SQS (Exploring)",
+      "SNS (Exploring)",
     ],
   },
   {
     title: "DevOps & Deployment",
-    skills: ["Docker"],
+    skills: ["Docker", "Jenkins (Exploring)", "Kubernetes (Exploring)"],
   },
   {
-    title: "Build & Version Control",
+    title: "Build Tools & Version Control",
     skills: ["Maven", "Gradle", "Git"],
   },
   {
-    title: "Frontend (Working Knowledge)",
-    skills: ["HTML", "CSS", "JSP", "Thymeleaf"],
+    title: "Frontend & Templating (Working Knowledge)",
+    skills: ["HTML", "CSS", "JSP", "Thymeleaf", "ReactJS (Exploring)", "TailwindCSS (Exploring)"],
   },
   {
     title: "Tools & Methodologies",
     skills: ["Jira", "Agile/Scrum"],
-  },
-  {
-    title: "Currently Exploring",
-    skills: ["ReactJS", "Jenkins", "Kubernetes"],
   },
 ];
 
