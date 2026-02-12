@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+
+  /* ✅ Extra Protection */
+  overflow-x: hidden;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  background: radial-gradient(circle at top, #07182e, #000);
+  color: white;
+
+  /* ✅ Prevent sideways scroll */
+  overflow-x: hidden;
+}
