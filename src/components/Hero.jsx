@@ -50,7 +50,7 @@ export default function Hero() {
 
             {/* ✅ Resume Link Fixed for GitHub Pages */}
             <a
-              href={`${import.meta.env.BASE_URL}Roshan_Kumar_Resume.pdf`}
+              href={`${import.meta.env.BASE_URL}MungleRoshanKumarJavaFullStack.pdf`}
               target="_blank"
               rel="noreferrer"
               className="px-7 py-3 rounded-xl bg-white/5 border border-white/10 hover:border-blue-400 hover:shadow-lg hover:shadow-blue-500/30 transition"

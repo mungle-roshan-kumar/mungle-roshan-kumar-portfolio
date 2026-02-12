@@ -31,7 +31,7 @@ export default function Navbar() {
           <a href="#contact" className="hover:text-blue-400">Contact</a>
 
           <a
-            href="/Roshan_Kumar_Resume.pdf"
+            href="/MungleRoshanKumarJavaFullStack.pdf"
             target="_blank"
             className="px-5 py-2 rounded-xl bg-blue-500 hover:bg-blue-600"
           >
@@ -71,7 +71,7 @@ export default function Navbar() {
           <a href="#contact" onClick={() => setOpen(false)}>Contact</a>
 
           <a
-            href="/Roshan_Kumar_Resume.pdf"
+            href="/MungleRoshanKumarJavaFullStack.pdf"
             target="_blank"
             className="block text-blue-400"
           >
